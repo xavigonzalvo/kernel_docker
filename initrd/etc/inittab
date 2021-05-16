@@ -1,0 +1,3 @@
+null::sysinit:/bin/mount -t proc proc /proc
+null::sysinit:/bin/mount -t sysfs sysfs /sys
+console::askfirst:-/bin/sh
